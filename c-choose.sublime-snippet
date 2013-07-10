@@ -1,6 +1,13 @@
 <snippet>
 	<content><![CDATA[
-<c:set var="${1}" value="\$\{${2}\}" />
+<c:choose>
+	<c:when test="\$\{${1}\}">
+		${2}
+	</c:when>
+	<c:otherwise>
+		${3}
+	</c:otherwise>
+</c:choose>
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>c:</tabTrigger>
