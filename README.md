@@ -3,16 +3,16 @@ jstl-sublime-snippets
 
 JSTL Tag support in Sublime Text 2 via snippets.
 
-##Install
+#Install
 - Navigate to /Packages/User/ folder
 - Create "Jsp" folder if necessary
 - Clone this repository in the "Jsp" folder
 
-##Usage
+#Usage
 Hit c: tab to display tags.
 
-##Supported tags
-#Core taglib
+#Supported tags
+Core taglib
 - set
 - choose
 - if
@@ -20,10 +20,10 @@ Hit c: tab to display tags.
 - param
 - url
 
-#PE taglib
+PE taglib
 - staticUrl
 - developmentInfo
 
-#Spring taglib
+Spring taglib
 - message
 
